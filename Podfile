@@ -1,7 +1,9 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '9.0'
+platform :ios, '10.0'
 
-target 'Monsty!' do
-	pod “SOAPEngine”
+use_frameworks!
+
+target 'Monsty' do
+	pod 'SOAPEngine'
 end
